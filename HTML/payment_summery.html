@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Summery</title>
+
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body class="payment_summery">
+    <!-- navbar part start -->
+
+    <nav id="navbar">
+      <div class="navbar_main d-flex justify-content-center">
+          <div class="logo me-auto">
+              <a href="../index.html"><img src="../images/logo_nav.png" alt=""></a>
+          </div>
+          <div class="navbar_items ms-auto" id="menu_hide_show">
+              <i class="fa-solid fa-xmark icns_close_show" onclick="hideMenu()"><span>Close</span></i>
+              <ul class="menu_side_icon">
+                  <li><a href="../index.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                  <li class="active"><a href="shops.html"><i class="fa-solid fa-shop"></i>Shops</a>
+                      <div class="shop_sub_menu">
+                          <ul class="sub_menu_side_icon">
+                              <li><a href="clothes.html">Clothes<i class="fa-solid fa-caret-right"></i></a></li>
+                              <li><a href="shoes.html">Shoes<i class="fa-solid fa-caret-right"></i></a></li>
+                              <li><a href="watches.html">Watches<i class="fa-solid fa-caret-right"></i></a></li>
+                              <li><a href="jewellery.html">Jewellery<i class="fa-solid fa-caret-right"></i></a></li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li><a href="fashion.html"><i class="fa-solid fa-glasses"></i>Fashion</a></li>
+                  <li><a href="blog.html"><i class="fa-brands fa-blogger-b"></i>Blog</a></li>
+                  <li><a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+              </ul>
+          </div>
+          <i class="fa-solid fa-bars icns_close_show" onclick="showMenu()"></i>
+      </div>
+  </nav>
+
+  <!-- navbar part end -->
+
+
+  <section id="payment_summery_main">
+    <div class="container">
+      <div class="row payment_summery_main_inner justify-content-between">
+        <div class="payment_summery_products col-12 col-sm-12 col-md-7">
+          <div class="payment_summery_products_inner">
+            <div class="payment_summery_products_inner_title d-flex justify-content-between align-items-center">
+              <h4>Items</h4>
+              <h5>5</h5>
+            </div>
+            <div class="payment_summery_products_inner_items d-flex align-items-center">
+              <h3>01.</h3>
+              <a href="#"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+              <ul>
+                  <li>Long slevee Maxi</li>
+                  <li>$55.95</li>
+              </ul>
+            </div>
+            <div class="payment_summery_products_inner_items d-flex align-items-center">
+              <h3>02.</h3>
+              <a href="#"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+              <ul>
+                  <li>Long slevee Maxi</li>
+                  <li>$55.95</li>
+              </ul>
+            </div>
+            <div class="payment_summery_products_inner_items d-flex align-items-center">
+              <h3>03.</h3>
+              <a href="#"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+              <ul>
+                  <li>Long slevee Maxi</li>
+                  <li>$55.95</li>
+              </ul>
+            </div>
+            <div class="payment_summery_products_inner_items d-flex align-items-center">
+              <h3>04.</h3>
+              <a href="#"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+              <ul>
+                  <li>Long slevee Maxi</li>
+                  <li>$55.95</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="price_details col-12 col-sm-12 col-md-4">
+          <div class="price_details_inner">
+            <h3>Price Details</h3>
+            <div class="price_details_inner_items">
+              <ul class="d-flex justify-content-between">
+                <li>MRP</li>
+                <li>$223.80</li>
+              </ul>
+              <ul class="d-flex justify-content-between">
+                <li>Shipping Fee</li>
+                <li>$0.00</li>
+              </ul>
+              <ul class="pay_now_discnt d-flex justify-content-between">
+                <li>Discount</li>
+                <li>$5.00</li>
+              </ul>
+              <ul class="pay_now_total d-flex justify-content-between">
+                <li>Total</li>
+                <li>$218.80</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="payment_summery_pay_now">
+            <a href="../HTML/payment_method.html">Pay Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/custom.js"></script>
+
+</body>
+</html>

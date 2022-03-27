@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policies</title>
+    
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <!-- bottom to top part start -->
+    <div class="bottom_to_top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <!-- bottom to top part end -->
+
+
+    <!-- navbar part start -->
+
+    <nav id="navbar">
+        <div class="navbar_main d-flex justify-content-center align-items-center">
+            <div class="logo me-auto">
+                <a href="../index.html"><img src="../images/logo_nav.png" alt="logo_nav"></a>
+            </div>
+            <div class="navbar_items mx-auto" id="menu_hide_show">
+                <i class="fa-solid fa-xmark icns_close_show" onclick="hideMenu()"><span>Close</span></i>
+                <ul class="menu_side_icon">
+                    <li class="active"><a href="../index.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                    <li><a href="../HTML/shops.html"><i class="fa-solid fa-shop"></i>Shops</a>
+                        <div class="shop_sub_menu">
+                            <ul class="sub_menu_side_icon">
+                                <li><a href="../HTML/clothes.html">Clothes<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="../HTML/shoes.html">Shoes<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="../HTML/watches.html">Watches<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="../HTML/jewellery.html">Jewellery<i class="fa-solid fa-caret-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="../HTML/fashion.html"><i class="fa-solid fa-glasses"></i>Fashion</a></li>
+                    <li><a href="../HTML/blog.html"><i class="fa-brands fa-blogger-b"></i>Blog</a></li>
+                    <li><a href="../HTML/contact.html"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar_icons ms-auto">
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <div class="search_bar">
+                            <div class="search_box">
+                              <input type="text" placeholder="Search" class="search_input">
+                              <div class="search_btn">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                              </div>
+                            </div>
+                          </div>
+                    </li>
+                    <li>
+                        <button class="btn_cart_edit btn_cart" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bag-shopping"></i></button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header shopping_cart_title">
+                            <h5 id="offcanvasRightLabel">Shopping Cart</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body shopping_cart_body">
+                               <div class="shopping_cart_inner">
+                                   <div class="shopping_cart_inner_title d-flex justify-content-between align-items-center">
+                                       <h4>Items</h4>
+                                       <h5>5</h5>
+                                   </div>
+                                   <div class="shopping_cart_inner_items d-flex align-items-center">
+                                       <h3>1.</h3>
+                                       <a href=".best_selling_items"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+                                       <ul>
+                                           <li>Long slevee Maxi</li>
+                                           <li>$55.95</li>
+                                       </ul>
+                                   </div>
+                                   <div class="shopping_cart_inner_items d-flex align-items-center">
+                                       <h3>2.</h3>
+                                       <a href=".best_selling_items"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+                                       <ul>
+                                           <li>Long slevee Maxi</li>
+                                           <li>$55.95</li>
+                                       </ul>
+                                   </div>
+                                   <div class="shopping_cart_inner_items d-flex align-items-center">
+                                       <h3>3.</h3>
+                                       <a href=".best_selling_items"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+                                       <ul>
+                                           <li>Long slevee Maxi</li>
+                                           <li>$55.95</li>
+                                       </ul>
+                                   </div>
+                                   <div class="shopping_cart_inner_items d-flex align-items-center">
+                                       <h3>4.</h3>
+                                       <a href=".best_selling_items"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+                                       <ul>
+                                           <li>Long slevee Maxi</li>
+                                           <li>$55.95</li>
+                                       </ul>
+                                   </div>
+                                   <div class="shopping_cart_inner_items d-flex align-items-center">
+                                       <h3>5.</h3>
+                                       <a href=".best_selling_items"><img class="img-fluid" src="../images/best_selling_1.jpg" alt="best_selling_1"></a>
+                                       <ul>
+                                           <li>Long slevee Maxi</li>
+                                           <li>$55.95</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                               <div class="shopping_cart_inner_items_subtotal">
+                                    <ul class="d-flex justify-content-between">
+                                        <li>SubTotal</li>
+                                        <li>$279.75</li>
+                                    </ul>
+                                    <ul class="d-flex justify-content-between">
+                                        <li>Shipping</li>
+                                        <li>Free</li>
+                                    </ul>
+                                </div>
+                               <div class="shopping_cart_inner_items_total">
+                                    <ul class="d-flex justify-content-between">
+                                        <li>Total</li>
+                                        <li>$279.75</li>
+                                    </ul>
+                                </div>
+                                <div class="shop_checkout">
+                                    <div class="shop_checkout_all d-flex justify-content-center">
+                                        <a href="payment_method.html">Checkout</a>
+                                    </div>
+                                    <h3>Or</h3>
+                                    <div class="shop_checkout_paypal d-flex justify-content-center">
+                                        <a href="payment_method.html">
+                                            <h4>Checkout With <img src="../images/paypal_checkout.png" alt=""></h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="fa-solid fa-user" href="user.html"></a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars icns_close_show" onclick="showMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- navbar part end -->
+
+
+
+
+
+
+    <!-- policy banner part start -->
+
+    <section id="policy_banner">
+        <div class="policy_banner_bg" style="background: url(../images/policy_banner.jpg) no-repeat center / cover;">
+            <div class="policy_main_text text-center">
+                <h2>Our Policies</h2>
+                <p>We are import products from diffrent country and we sell our products ourselves. So there are no chance to <br> get bad products from us. You can change your products any-time if you face any problem in our products.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- policy banner part end -->
+
+
+
+
+
+
+
+    <!-- Privacy Policy Part Start -->
+
+    <section id="privacy_policy">
+        <div class="container">
+            <div class="privacy_policy_title">
+                <h2>Privacy Policy</h2>
+            </div>
+            <div class="privacy_policy_text">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus ipsum facilis temporibus. Iure ratione voluptates nesciunt obcaecati distinctio, tenetur rem et in quae nemo quod beatae necessitatibus molestias consectetur deleniti debitis quia magni facilis aliquid, minus iusto, vitae aperiam. Et laboriosam perspiciatis officiis fugiat eaque cum nesciunt tenetur id!</h6>
+
+                <div class="privacy_policy_more">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a odit provident nam quas accusamus dicta enim ipsam odio fuga. Dolore numquam quos aliquam aut reiciendis facilis perferendis sapiente atque molestias quam voluptatem delectus velit itaque iure nobis quia soluta veritatis ad amet, enim magni ea corrupti quod dolores? Facilis aliquid temporibus quam. Eius nisi natus vero. Commodi numquam ipsam vero architecto rem quidem amet at similique atque nam debitis beatae tenetur excepturi, neque illum nihil cumque eius rerum iste deleniti? Harum mollitia magnam inventore at nostrum sequi! Nam rerum dolor enim voluptates possimus ratione animi assumenda. Possimus commodi dicta porro aliquam, consequuntur vel voluptas. Aliquid quisquam ad itaque placeat eos et, tempora expedita atque mollitia nisi nostrum neque exercitationem debitis quis vitae eligendi inventore harum. Ut tempore dolore nulla aliquid minima laborum ipsum rerum voluptas rem harum illum perferendis, quis, error quisquam praesentium sed quas voluptatum eos doloribus quibusdam.</p>
+                </div>
+
+                <div class="privacy_policy_more_btn">
+                    <button class="read_more_btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Part Start -->
+
+
+
+
+    <!-- Refund Policy Part Start -->
+
+    <section id="refund_policy">
+        <div class="container">
+            <div class="privacy_policy_title">
+                <h2>Refund Policy</h2>
+            </div>
+            <div class="privacy_policy_text">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus ipsum facilis temporibus. Iure ratione voluptates nesciunt obcaecati distinctio, tenetur rem et in quae nemo quod beatae necessitatibus molestias consectetur deleniti debitis quia magni facilis aliquid, minus iusto, vitae aperiam. Et laboriosam perspiciatis officiis fugiat eaque cum nesciunt tenetur id!</h6>
+
+                <div class="privacy_policy_more">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a odit provident nam quas accusamus dicta enim ipsam odio fuga. Dolore numquam quos aliquam aut reiciendis facilis perferendis sapiente atque molestias quam voluptatem delectus velit itaque iure nobis quia soluta veritatis ad amet, enim magni ea corrupti quod dolores? Facilis aliquid temporibus quam. Eius nisi natus vero. Commodi numquam ipsam vero architecto rem quidem amet at similique atque nam debitis beatae tenetur excepturi, neque illum nihil cumque eius rerum iste deleniti? Harum mollitia magnam inventore at nostrum sequi! Nam rerum dolor enim voluptates possimus ratione animi assumenda. Possimus commodi dicta porro aliquam, consequuntur vel voluptas. Aliquid quisquam ad itaque placeat eos et, tempora expedita atque mollitia nisi nostrum neque exercitationem debitis quis vitae eligendi inventore harum. Ut tempore dolore nulla aliquid minima laborum ipsum rerum voluptas rem harum illum perferendis, quis, error quisquam praesentium sed quas voluptatum eos doloribus quibusdam.</p>
+                </div>
+
+                <div class="privacy_policy_more_btn">
+                    <button class="read_more_btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Refund Policy Part Start -->
+
+
+
+
+
+    <!-- Shipping Policy Part Start -->
+
+    <section id="shipping_policy">
+        <div class="container">
+            <div class="privacy_policy_title">
+                <h2>Shipping Policy</h2>
+            </div>
+            <div class="privacy_policy_text">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus ipsum facilis temporibus. Iure ratione voluptates nesciunt obcaecati distinctio, tenetur rem et in quae nemo quod beatae necessitatibus molestias consectetur deleniti debitis quia magni facilis aliquid, minus iusto, vitae aperiam. Et laboriosam perspiciatis officiis fugiat eaque cum nesciunt tenetur id!</h6>
+
+                <div class="privacy_policy_more">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a odit provident nam quas accusamus dicta enim ipsam odio fuga. Dolore numquam quos aliquam aut reiciendis facilis perferendis sapiente atque molestias quam voluptatem delectus velit itaque iure nobis quia soluta veritatis ad amet, enim magni ea corrupti quod dolores? Facilis aliquid temporibus quam. Eius nisi natus vero. Commodi numquam ipsam vero architecto rem quidem amet at similique atque nam debitis beatae tenetur excepturi, neque illum nihil cumque eius rerum iste deleniti? Harum mollitia magnam inventore at nostrum sequi! Nam rerum dolor enim voluptates possimus ratione animi assumenda. Possimus commodi dicta porro aliquam, consequuntur vel voluptas. Aliquid quisquam ad itaque placeat eos et, tempora expedita atque mollitia nisi nostrum neque exercitationem debitis quis vitae eligendi inventore harum. Ut tempore dolore nulla aliquid minima laborum ipsum rerum voluptas rem harum illum perferendis, quis, error quisquam praesentium sed quas voluptatum eos doloribus quibusdam.</p>
+                </div>
+
+                <div class="privacy_policy_more_btn">
+                    <button class="read_more_btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shipping Policy Part Start -->
+
+
+
+
+    <!-- Privacy Policy Part Start -->
+
+    <section id="terms_conditions">
+        <div class="container">
+            <div class="privacy_policy_title">
+                <h2>Terms & Condition</h2>
+            </div>
+            <div class="privacy_policy_text">
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus ipsum facilis temporibus. Iure ratione voluptates nesciunt obcaecati distinctio, tenetur rem et in quae nemo quod beatae necessitatibus molestias consectetur deleniti debitis quia magni facilis aliquid, minus iusto, vitae aperiam. Et laboriosam perspiciatis officiis fugiat eaque cum nesciunt tenetur id!</h6>
+
+                <div class="privacy_policy_more">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a odit provident nam quas accusamus dicta enim ipsam odio fuga. Dolore numquam quos aliquam aut reiciendis facilis perferendis sapiente atque molestias quam voluptatem delectus velit itaque iure nobis quia soluta veritatis ad amet, enim magni ea corrupti quod dolores? Facilis aliquid temporibus quam. Eius nisi natus vero. Commodi numquam ipsam vero architecto rem quidem amet at similique atque nam debitis beatae tenetur excepturi, neque illum nihil cumque eius rerum iste deleniti? Harum mollitia magnam inventore at nostrum sequi! Nam rerum dolor enim voluptates possimus ratione animi assumenda. Possimus commodi dicta porro aliquam, consequuntur vel voluptas. Aliquid quisquam ad itaque placeat eos et, tempora expedita atque mollitia nisi nostrum neque exercitationem debitis quis vitae eligendi inventore harum. Ut tempore dolore nulla aliquid minima laborum ipsum rerum voluptas rem harum illum perferendis, quis, error quisquam praesentium sed quas voluptatum eos doloribus quibusdam.</p>
+                </div>
+
+                <div class="privacy_policy_more_btn">
+                    <button class="read_more_btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Part Start -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer part start -->
+
+    <footer id="footer">
+        <div class="container footer_main">
+            <div class="row">
+                <div class="col-lg-3 col-6 col-sm-6 policy footer_main_inner">
+                    <a class="policies_title" href="policies.html">Policies</a>
+                    <ul>
+                        <li><a href="policies.html">Privacy Policy</a></li>
+                        <li><a href="policies.html">Refund Policy</a></li>
+                        <li><a href="policies.html">Shipping Policy</a></li>
+                        <li><a href="policies.html">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-6 col-sm-6 about_us footer_main_inner">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li class="d-flex align-items-center footer_main_inner_text">
+                            <h3>Phone:</h3>
+                            <p>+08646464564</p>
+                        </li>
+                        <li class="d-flex align-items-center footer_main_inner_text">
+                            <h3>Email:</h3>
+                            <p>syko.syko46@gmail.com</p>
+                        </li>
+                        <li><a href="contact.html"><i class="fas fa-headset faci_icon"></i>Online Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-6 col-sm-6 Quick_Menu footer_main_inner">
+                    <h2>Quick Menu</h2>
+                    <ul>
+                        <li><a href="shops.html">Shop</a></li>
+                        <li><a href="clothes.html">Clothes</a></li>
+                        <li><a href="jewellery.html">Jewellery</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-6 col-sm-6 offline_store_subscribe footer_main_inner">
+                    <h2>Our Offline Store</h2>
+                    <ul>
+                        <li><a href="https://goo.gl/maps/XGJVWaKtNnskMKXj8"><i class="fa-solid fa-location-dot"></i>Location</a></li>
+                        <li>
+                            <h3>Subscribe To Get Daily Updates & Collection</h3>
+                            <button class="subscribe_button">Subscribe</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright_top"></div>
+            <div class="copyright_text text-center">
+                <h3>Copyright By SykoStore</h3>
+            </div>
+        </div>
+        <div class="copyright_bottom"></div>
+    </footer>
+
+    <!-- footer part end -->
+
+
+
+
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/custom.js"></script>
+</body>
+</html>

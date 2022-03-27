@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+
+    <!-- nav part start -->
+
+    <nav id="navbar">
+        <div class="navbar_main d-flex justify-content-center align-items-center">
+            <div class="logo me-auto">
+                <a href="../index.html"><img src="../images/logo_nav.png" alt="logo_nav"></a>
+            </div>
+            <div class="navbar_items ms-auto" id="menu_hide_show">
+                <i class="fa-solid fa-xmark icns_close_show" onclick="hideMenu()"><span>Close</span></i>
+                <ul class="menu_side_icon">
+                    <li><a href="../index.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                    <li class="active"><a href="shops.html"><i class="fa-solid fa-shop"></i>Shops</a>
+                        <div class="shop_sub_menu">
+                            <ul class="sub_menu_side_icon">
+                                <li><a href="clothes.html">Clothes<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="shoes.html">Shoes<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="watches.html">Watches<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="jewellery.html">Jewellery<i class="fa-solid fa-caret-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="fashion.html"><i class="fa-solid fa-glasses"></i>Fashion</a></li>
+                    <li><a href="blog.html"><i class="fa-brands fa-blogger-b"></i>Blog</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars icns_close_show" onclick="showMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- nav part end -->
+
+
+
+
+
+    <!-- user part start -->
+
+    <section id="user">
+        <div class="main">  	
+            <input type="checkbox" id="chk" aria-hidden="true">
+    
+            <div class="signup">
+                <form method="POST" action="../index.html">
+                    <label for="chk" aria-hidden="true">Sign up</label>
+                    <input type="text" name="txt" placeholder="User name" required="" class="input_log_sign_up">
+                    <input type="email" name="email" placeholder="Email" required="" class="input_log_sign_up">
+                    <input type="password" name="pswd" placeholder="Password" required="" class="input_log_sign_up">
+                    <button class="sign_up_btn">Sign up</button>
+                </form>
+            </div>
+    
+            <div class="login">
+                <form method="get" action="../index.html">
+                    <label for="chk" aria-hidden="true">Login</label>
+                    <input type="email" name="email" placeholder="Email" required="" class="input_log_sign_up">
+                    <input type="password" name="pswd" placeholder="Password" required="" class="input_log_sign_up">
+                    <button class="log_in_btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- user part end -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/custom.js"></script>
+
+</body>
+</html>

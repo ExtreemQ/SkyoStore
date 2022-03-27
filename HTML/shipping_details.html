@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Details</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+      <!-- navbar part start -->
+
+      <nav id="navbar">
+        <div class="navbar_main d-flex justify-content-center">
+            <div class="logo me-auto">
+                <a href="../index.html"><img src="../images/logo_nav.png" alt="logo_nav"></a>
+            </div>
+            <div class="navbar_items ms-auto" id="menu_hide_show">
+                <i class="fa-solid fa-xmark icns_close_show" onclick="hideMenu()"><span>Close</span></i>
+                <ul class="menu_side_icon">
+                    <li><a href="../index.html"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                    <li class="active"><a href="shops.html"><i class="fa-solid fa-shop"></i>Shops</a>
+                        <div class="shop_sub_menu">
+                            <ul class="sub_menu_side_icon">
+                                <li><a href="clothes.html">Clothes<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="shoes.html">Shoes<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="watches.html">Watches<i class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a href="jewellery.html">Jewellery<i class="fa-solid fa-caret-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="fashion.html"><i class="fa-solid fa-glasses"></i>Fashion</a></li>
+                    <li><a href="blog.html"><i class="fa-brands fa-blogger-b"></i>Blog</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars icns_close_show" onclick="showMenu()"></i>
+        </div>
+    </nav>
+
+    <!-- navbar part end -->
+
+  <section id="shipping_details">
+    <div class="container">
+      <div class="main_form">
+        <div class="row d-flex justify-content-between">
+          <div class="col-12 col-sm-12 col-lg-6">
+            <div class="form_header">
+              <h2>Shipping Address</h2>
+            </div>
+            <div class="same_as_user">
+              <input type="checkbox" name="" id="same-address">
+              <label for="same-address" class="ships_label">Shipping Address is the Same as Profile</label>
+            </div>
+            <form action="../HTML/payment_summery.html" class="row">
+              <div class="form_feild col-12 col-sm-6 col-lg-6">
+                <label class="ships_label" for="">First Name</label>
+                <input type="text" class="ships_input" placeholder="First Name" required>
+              </div>
+              <div class="form_feild col-12 col-sm-6 col-lg-6">
+                <label class="ships_label" for="">Last Name</label>
+                <input type="text" class="ships_input" placeholder="Last Name" required>
+              </div>
+              <div class="form_feild col-12 col-sm-6 col-lg-6">
+                <label class="ships_label" for="">Email</label>
+                <input type="email" class="ships_input" placeholder="Enter Your Email" required>
+              </div>
+              <div class="form_feild col-12 col-sm-6 col-lg-6">
+                <label class="ships_label" for="">Phone</label>
+                <input type="number" class="ships_input" placeholder="Enter Your Phone" required>
+              </div>
+              <div class="form_feild col-12">
+                <label class="ships_label" for="">Address Line 1</label>
+                <input type="text" class="ships_input" placeholder="Enter Shipping Address" required>
+              </div>
+              <div class="form_feild col-12">
+                <label class="ships_label" for="">Address Line 2</label>
+                <input type="text" class="ships_input" placeholder="Enter Shipping Address">
+              </div>
+              <div class="form_feild col-12 col-sm-4 col-lg-4">
+                <label class="ships_label" for="">Country</label>
+                <input type="text" class="ships_input" placeholder="Country" required>
+              </div>
+              <div class="form_feild col-12 col-sm-4 col-lg-4">
+                <label class="ships_label" for="">City</label>
+                <input type="text" class="ships_input" placeholder="City" required>
+              </div>
+              <div class="form_feild col-12 col-sm-4 col-lg-4">
+                <label class="ships_label" for="">Zip Code</label>
+                <input type="text" class="ships_input" placeholder="Zip Code" required>
+              </div>
+              <button class="ships_btn mx-auto" type="submit">Next</button>
+            </form>
+          </div>
+
+          <div class="col-12 col-sm-12 col-lg-6">
+            <div class="ships_product_details">
+              <h2>Product Details</h2>
+            </div>
+            <div class="ships_product_details_main">
+              <div class="row">
+                <div class="col-6">
+                  <img class="img-fluid" id="main_img" src="../images/best_selling_1.jpg" alt="best_selling_1">
+                </div>
+                <div class="col-6">
+                  <div class="ships_product_details_main_text">
+                    <h3>Long slevee Maxi</h3>
+                    <ul class="ships_company_name">
+                        <li class="d-flex justify-content-between">
+                            <h2>Origin:</h2>
+                            <h6>America</h6>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="d-flex justify-content-between">
+                            <h2>Company Name:</h2>
+                            <h6>Skyo</h6>
+                        </li>
+                    </ul>
+                    <ul class="ships_products_price">
+                        <li class="d-flex justify-content-between">
+                            <h2>Price:</h2>
+                            <h6>$55.95</h6>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/custom.js"></script>
+</body>
+</html>

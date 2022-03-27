@@ -1,0 +1,662 @@
+
+/* common responsive start */
+
+@media(max-width: 650px){
+
+    .offcanvas {
+        max-width: 70%;
+    }
+    .navbar_icons ul li{
+        padding-left: 15px;
+        font-size: 16px;
+    } 
+    .modal-dialog{
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+    .btn_secondary{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .btn_primary{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+}
+@media(min-width: 775px){
+    .modal-dialog{
+        max-width: 600px;
+        margin: 1.75rem auto;
+    }
+}
+@media(min-width: 1200px){
+    .modal-dialog{
+        max-width: 1000px;
+        margin: 1.75rem auto;
+    }
+}
+/* ==== search bar ==== */
+@media(max-width: 450px){
+    .search_btn{
+        right: -60px;
+        height: 16px;
+        width: 16px;
+        top: 42px;
+    }
+    .search_input{
+        right: -55px;
+    }
+    .search_input.active{
+        width: 185px;
+        right: -73px;
+    }
+    .search_btn.animate{
+        right: -69px;
+    }
+}
+@media(min-width: 450.99px) and (max-width: 650px){
+    .search_btn{
+        right: -62px;
+        height: 16px;
+        width: 16px;
+        top: 42px;
+    }
+    .search_input{
+        right: -55px;
+    }
+    .search_input.active{
+        width: 250px;
+        right: -73px;
+    }
+    .search_btn.animate{
+        right: -69px;
+    }
+}
+@media(min-width: 575.99px) and (max-width: 770.99px){
+    .pay_btn{
+        padding: 0.375rem 2rem;
+    }
+}
+@media(min-width: 771px) and (max-width: 1000px){
+    .pay_btn{
+        padding: 0.375rem 4rem;
+    }
+}
+@media(min-width: 650.99px) and (max-width: 950px){
+    .search_btn{
+        right: -40px;
+        top: 41px;
+    }
+    .search_input{
+        right: -30px;
+    }
+    .search_input.active{
+        width: 300px;
+        right: -45px;
+    }
+    .search_btn.animate{
+        right: -41px;
+    }
+}
+@media(max-width: 1199.99px){
+    .col_pt{
+        padding-top: 20px;
+    }
+}
+
+/* common responsive end */
+
+@media(max-width: 650px){
+
+    /* header part start */
+
+    .header_left h4{
+        font-size: 12px;
+    }
+    .header_center a{
+        font-size: 12px;
+    }
+    .header_right ul li{
+        padding-left: 0;
+    }
+    .header_right ul li a i{
+        height: 15px;
+        width: 15px;
+        font-size: 12px;
+    }
+
+    @media(max-width: 320px){
+        .header_left{
+            display: none;
+        }
+        .modal-dialog{
+            max-width: 300px;
+            margin: 1.75rem auto;
+        }
+    }
+    /* header part end */
+
+
+    /* navbar part start */
+
+    .navbar_items ul li a{
+        font-size: 12px;
+        display: block;
+    }
+    .footer_main{
+        padding: 0 20px;
+    }
+
+    /* navbar part end */
+
+
+    /* banner part start */
+
+    .banner_main_text h1{
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+    .banner_main_text h2{
+        font-size: 22px;
+        padding: 0 10px 20px 10px;
+    }
+    .banner_main_text p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .banner_main_text .banner_button a{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .banner_main_bg{
+        padding: 150px 0;
+    }
+    /* banner part end */
+
+
+    /* best selling part start */
+
+    .best_selling_title h3{
+        font-size: 18px;
+    }
+    .best_selling_title h2{
+        font-size: 18px;
+    }
+    .best_selling_title i{
+        font-size: 12px;
+    }
+
+    /* best selling part end */
+
+
+    /* discount part start */
+
+    .discount_offer_items_text a{
+        font-size: 16px ;
+        padding: 3px 5px;
+    }
+
+    /* discount part end */
+}
+
+@media(min-width: 775px){
+    .banner_main_text p br{
+        display: block;
+    }
+    .offcanvas-end{
+        width: 500px;
+    }
+}
+
+@media(max-width: 991.98px){
+    .facility_main_item_inner{
+        margin-bottom: 20px;
+    }
+    /* banner part */
+    .banner_main_bg{
+        padding: 200px 0;
+    }
+    .ships_product_details{
+        padding-top: 40px;
+    }
+}
+
+@media(max-width: 767.98px){
+    .facility_main_item_inner h3{
+        font-size: 18px;
+    }
+    .facility_main_item_inner p{
+        font-size: 12px;
+    }
+    .jewellry_banner_main_text h2{
+        font-size: 32px;
+    }
+    .jewellry_banner_main_text h3{
+        font-size: 24px;
+    }
+}
+/*========================== User page start ======================== */
+@media(max-width: 767.98px){
+    
+    .price_details{
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+    
+}
+/*========================== User page end ======================== */
+
+
+@media(max-width: 950px){
+    .navbar_main{
+        padding: 0 50px;
+    }
+    .icns_close_show{
+        display: block;
+    }
+    .navbar_items ul li{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .navbar_items{
+        position: absolute;
+        background: #527e7a;
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        left: -161px;
+        text-align: left;
+        z-index: 2;
+    }
+    .navbar_items ul li:hover .shop_sub_menu{
+        margin-top: -20px;
+        left: 161px !important;
+    }
+    .navbar_items ul li:hover .shop_sub_menu ul li{
+        margin: 10px 0;
+    }
+}
+@media(max-width: 1199.98px){
+    .collection_items,
+    .best_selling_items_inner{
+        margin-bottom: 20px;
+    }
+    .best_selling_items_inner_all_text a{
+        bottom: 100px;
+    }
+    .facility_main_item_inner{
+        padding: 10px;
+    }
+    .facility_main_item_inner h3{
+        font-size: 18px;
+    }
+    .facility_main_item_inner p{
+        font-size: 14px;
+    }
+}
+@media(min-width: 1200px){
+    .best_slling_items_inner_2{
+        margin-top: 20px;
+    }
+}
+@media(min-width: 1200px) and (max-width: 1700px){
+    .season_collection_items_text h4{
+        font-size: 14px;
+        left: 10px;
+    }
+    .season_collection_items_text i{
+        font-size: 16px;
+        padding: 10px;
+        bottom: 28px;
+        right: 20px;
+    }
+    .best_selling_items_inner_all_text a{
+        bottom: 100px;
+    }
+}
+@media(max-width: 500px){
+    .season_collection_items_text h4{
+        font-size: 14px;
+        left: 10px;
+    }
+    .season_collection_items_text i{
+        font-size: 14px;
+        padding: 7px;
+        bottom: 28px;
+        right: 20px;
+    }
+    .best_selling_items_inner_all_text a{
+        font-size: 14px;
+        padding: 3px 5px;
+    }
+    .facility_main_item_inner{
+        padding: 10px;
+    }
+    .facility_main_item_inner h3{
+        font-size: 16px;
+    }
+    .facility_main_item_inner p{
+        font-size: 12px;
+    }
+    .footer_main_inner ul li{
+        flex-direction: column;
+    }
+    .footer_main_inner{
+        text-align: center;
+    }
+    /* banner part */
+    .banner_main_bg{
+        padding: 100px 0;
+    }
+
+}
+
+
+
+/* ================================ shop page start ==================================== */
+
+/* shop_top start */
+@media(min-width: 1px){
+    .row_2_inner .shop_top_inner .shop_top_inner_text h2{
+        font-size: 22px;
+    }
+    .row_2_inner .shop_top_inner .shop_top_inner_text a{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+    .row_2_inner .shop_top_inner .shop_top_inner_text h3{
+        font-size: 22px;
+    }
+}
+@media(min-width: 1px) and (max-width:575.98px) {
+    .row_2_inner .shop_top_inner .shop_top_inner_text h2{
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .row_2_inner .shop_top_inner .shop_top_inner_text a{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .row_2_inner .shop_top_inner .shop_top_inner_text h3{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .new_collection_main_item_inner h3{
+        font-size: 12px;
+    }
+    .new_collection_main_item_inner_text h4{
+        font-size: 12px;
+    }
+    .new_collection_main_item_inner_text a{
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+}
+@media(min-width:575.98px) and (max-width: 991.98px){
+    .shop_top_inner_text h2{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .shop_top_inner_text a{
+        font-size: 18px;
+    }
+    .shop_top_inner_text h3{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+}
+/* shop_top end */
+
+/* ================================ shop page end ==================================== */
+
+
+
+/* ================================ fashion page start ==================================== */
+
+@media(max-width: 575px){
+
+    /* men fashion part start */
+    .men_fashion_main_item_inner h3{
+        font-size: 12px;
+    }
+    .men_fashion_main_item_inner_text h4{
+        font-size: 12px;
+    }
+    .men_fashion_main_item_inner_text a{
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    /* men fashion part end */
+
+
+    /* women fashion part start */
+    .women_fashion_main_item_inner h3{
+        font-size: 12px;
+    }
+    .women_fashion_main_item_inner_text h4{
+        font-size: 12px;
+    }
+    .women_fashion_main_item_inner_text a{
+        font-size: 12px;
+        padding: 3px 5px;
+    }
+    /* women fashion part end */
+}
+
+/* ================================ fashion page end ==================================== */
+
+
+
+
+
+/* ================================ Blog page Start ==================================== */
+
+@media(min-width:1px) and (max-width:350.99px){
+    #blog_banner{
+        height: 22.5vh;
+    }
+    .blog_banner_title h2{
+        display: contents;
+        font-size: 22px;
+    }
+    .blog_about_us_main_title{
+        width: 300px;
+    }
+}
+@media(min-width:351px) and (max-width:400.99px){
+    #blog_banner{
+        height: 24vh;
+    }
+    .blog_banner_title h2{
+        display: contents;
+        font-size: 24px;
+    }
+    .blog_about_us_main_title{
+        width: 300px;
+    }
+}
+@media(min-width:401px) and (max-width:550.99px){
+    #blog_banner{
+        height: 26vh;
+    }
+    .blog_banner_title h2{
+        display: contents;
+        font-size: 26px;
+    }
+    .blog_about_us_main_title{
+        width: 350px;
+    }
+}
+@media(min-width:501px) and (max-width:650.99px){
+    #blog_banner{
+        height: 31vh;
+    }
+    .blog_banner_title h2{
+        display: contents;
+        font-size: 36px;
+    }
+    .blog_about_us_main_title{
+        width: 450px;
+    }
+}
+@media(min-width:651px) and (max-width:750.99px){
+    #blog_banner{
+        height: 39vh;
+    }
+    .blog_banner_title h2{
+        display: contents;
+        font-size: 36px;
+    }
+    .blog_about_us_main_title{
+        width: 550px;
+    }
+}
+@media(min-width:751px) and (max-width:850.99px){
+    #blog_banner{
+        height: 44vh;
+    }
+    .blog_banner_title h2{
+        display: contents;
+        font-size: 40px;
+    }
+}
+@media(min-width:851px) and (max-width:1050.99px){
+    #blog_banner{
+        height: 49vh;
+    }
+    .blog_banner_title h2{
+        display: contents;
+        font-size: 50px;
+    }
+}
+@media(min-width:1051px) and (max-width:1200.99px){
+    #blog_banner{
+        height: 60vh;
+    }
+}
+@media(min-width:1201px) and (max-width:1335px){
+    #blog_banner{
+        height: 66vh;
+    }
+}
+@media(min-width:1350px) and (max-width:1700px){
+    #blog_banner{
+        height: 86vh;
+    }
+}
+
+
+@media(min-width:1px) and (max-width:575.99px){
+    .our_showroom{
+        margin-top: 30px;
+    }
+    .showroom_pt{
+        padding-top: 50px;
+    }
+    .showroom_title p{
+        font-size: 14px;
+    }
+}
+@media(min-width:576px) and (max-width:767.99){
+    .our_showroom{
+        margin-top: 30px;
+    }
+    .showroom_pt{
+        padding-top: 30px;
+    }
+}
+@media(min-width:992px) and (max-width:1399.99px){
+    .showroom_title h2{
+        font-size: 17px;
+    }
+    .showroom_title p{
+        font-size: 14px;
+    }
+    .showroom_title p button{
+        font-size: 14px;
+    }
+}
+@media(max-width:991.99px){
+    .testimonial_main_inner{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:767.99px){
+    .contact_form_email{
+        padding-top: 20px;
+    }
+}
+
+
+
+/* ================================ Blog page end ==================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ================================ Policy page start ==================================== */
+
+
+@media(max-width:767.99px){
+    .privacy_policy_more p{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    .privacy_policy_more_btn{
+        display: none;
+    }
+}
+/* ================================ Policy page end ==================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================== Payment summery page start =============================== */
+
+@media(max-width: 575px){
+
+    .payment_summery_products_inner_items ul li{
+        font-size: 14px;
+    }
+    
+    .payment_summery_products_inner_items h3{
+        font-size: 14px;
+    }
+    
+
+
+    .price_details_inner_items ul li{
+        font-size: 14px;
+    }
+}
+
+/* ============================== Payment summery page end =============================== */
